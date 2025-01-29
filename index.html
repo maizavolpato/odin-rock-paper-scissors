@@ -4,9 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock, Paper and Scissors</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script src="script.js"></script>
+  <header>
+    <h1>Let's play Rock Paper Scissors</h1>
+  </header>
+  <div class="score">Score
+    <div id= "user-label" class="badge">User: <span id= "user-score">0</span></div>
+    <div id="comp-label" class="badge">Comp: <span id= "computer-score">0</span></div>
+  </div>
+  
+  <div class="choises">
+    <div id="r" class="choise">
+      <img src="Images/rock.jpg" alt="">
+    </div>
+    <div id="p" class="choise">
+      <img src="Images/paper.jpg" alt="">
+    </div>
+    <div id="s" class="choise">
+      <img src="Images/scissors.jpg" alt="">
+    </div>
+  </div>
+
+  <p id="message">Make your choise!</p>
+  <script src="script.js" charset="UTF-8"></script>
   
 </body>
 </html>
